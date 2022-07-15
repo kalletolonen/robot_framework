@@ -1,0 +1,5 @@
+wxpython
+wheel
+pygame
+robotframework
+robotframework-ride
