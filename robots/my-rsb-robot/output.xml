@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.7.5 on linux)" generated="20220715 10:32:26.460" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="/home/kallet/.vscode/extensions/robocorp.robotframework-lsp-0.48.2/src/robotframework_ls/vendored/robotframework_interactive/robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20220715 10:35:27.007" endtime="20220715 10:35:39.941"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20220715 10:37:36.962" endtime="20220715 10:37:47.780"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>username</arg>
+<arg>maria</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<kw name="Capture Page Screenshot" library="RPA.Browser.Selenium">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20220715 11:19:46.056" level="FAIL">InvalidSessionIdException: Message: Tried to run command without establishing a connection
+</msg>
+<status status="FAIL" starttime="20220715 11:19:46.054" endtime="20220715 11:19:46.057"/>
+</kw>
+<msg timestamp="20220715 11:19:46.057" level="FAIL">WebDriverException: Message: Failed to decode response from marionette
+</msg>
+<status status="FAIL" starttime="20220715 11:19:46.041" endtime="20220715 11:19:46.057"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20220715 11:20:25.242" endtime="20220715 11:20:36.877"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>username</arg>
+<arg>maria</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20220715 11:20:43.136" endtime="20220715 11:20:43.211"/>
+</kw>
+<kw name="Input Password" library="RPA.Browser.Selenium">
+<arg>password</arg>
+<arg>thoushallnotpass</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20220715 11:21:45.484" endtime="20220715 11:21:45.534"/>
+</kw>
+<kw name="Submit Form" library="RPA.Browser.Selenium">
+<doc>Submits a form identified by ``locator``.</doc>
+<status status="PASS" starttime="20220715 11:21:56.383" endtime="20220715 11:21:56.419"/>
+</kw>
+<status status="PASS" starttime="20220715 10:32:26.489" endtime="20220716 09:07:22.746"/>
+</kw>
+<status status="PASS" starttime="20220715 10:32:26.488" endtime="20220716 09:07:22.747"/>
+</test>
+<status status="PASS" starttime="20220715 10:32:26.461" endtime="20220716 09:07:22.760"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
